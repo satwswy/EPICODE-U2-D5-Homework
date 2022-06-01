@@ -12,12 +12,23 @@
             background: linear-gradient(90deg, rgba(58,180,61,0.7600083978904062) 0%, rgba(29,253,231,0.6087478936887255) 44%, rgba(69,252,111,0.7516050365458684) 100%);  
             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-size: 2rem;
+            margin-bottom: 0;
         }
         .deal-of-the-week {
+            display: flex;
             background-image: url('https://img.freepik.com/free-photo/wooden-plank-textured-background-material_53876-31378.jpg?w=2000');
+            height:100vh;
+            width: 100%;
+            background-position:center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
         }
+       .deal-of-the-week .container-fluid {
+           display: flex;
+           align-items: center;
+       }
+       
     </style>
 </head>
 <body>
@@ -54,9 +65,9 @@
         </p>
     </div>
     <section class="deal-of-the-week">
-       
+        
         <div class="container-fluid">
-            <h1 class="text-center">Deals of the Week</h1> 
+            <h1>Deals of the Week</h1>  
            <div class="row">
             <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card">
