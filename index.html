@@ -15,7 +15,6 @@
             margin-bottom: 0;
         }
         .deal-of-the-week {
-            display: flex;
             background-image: url('https://img.freepik.com/free-photo/wooden-plank-textured-background-material_53876-31378.jpg?w=2000');
             height:100vh;
             width: 100%;
@@ -23,11 +22,17 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
-       .deal-of-the-week .container-fluid {
-           display: flex;
-           align-items: center;
-       }
+        .deal-of-the-week h1 {
+            color: bisque;
+            margin-top: 25px;
+            margin-bottom: 10%;
+            font-size: 4rem;
+        }
+       
        
     </style>
 </head>
@@ -65,9 +70,8 @@
         </p>
     </div>
     <section class="deal-of-the-week">
-        
+        <h1>Deals of the Week</h1>  
         <div class="container-fluid">
-            <h1>Deals of the Week</h1>  
            <div class="row">
             <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <div class="card">
